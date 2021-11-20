@@ -3,6 +3,10 @@
     "description": "Deploy V2ray on Heroku.",
     "keywords": ["V2Ray"],
     "env": {
+        "PORT": {
+            "description": "PORTD",
+            "value": "8880"
+        },
         "ID": {
             "description": "UUID",
             "value": "22222222-1111-1111-1111-333333333333"
